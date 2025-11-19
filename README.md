@@ -201,6 +201,12 @@ Gamora implements secure user authentication and route protection using Firebase
 
 ## Live Link & Repository
 
-- **Live Website:** [Gamora Live Demo](https://gamora-dhali.netlify.app/)  
-- **GitHub Repository:** [Add your repository link here](https://github.com/your-username/your-repo)
+- **Live Website:** [Gamora Live Demo](https://gamora-dhali.netlify.app/)
+  ```bash
+  https://gamora-dhali.netlify.app/
+  ```
+- **GitHub Repository:**
+  ```bash
+  https://github.com/alhasandhali/gamora.git
+  ```
 
