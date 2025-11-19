@@ -1,4 +1,4 @@
-<img align="center" width="100%" src="https://i.ibb.co.com/9mtxDVPt/Screenshot-2025-11-19-151302.png" alt="home-page">
+<img align="center" width="100%" src="/gamora-home.png" alt="home-page">
 
 # Gamora – Modern Gaming Showcase
 
