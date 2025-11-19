@@ -1,72 +1,73 @@
-# Gamora – A Modern Gaming Showcase Website
+# Gamora – Modern Gaming Showcase
 
-Gamora is a responsive, single-layout React website showcasing popular games with Firebase authentication and protected routes.  
-It includes user login/Signup, game details, dynamic routing, animations and secure environment variable usage.
+**Gamora** is a responsive, single-layout React website that showcases popular games. It integrates **Firebase Authentication**, protected routes, dynamic routing, animations, and secure usage of environment variables.
 
 ---
 
-## Features
+## Overview
 
-### Layout & Routing
+Gamora is a modern gaming showcase platform featuring:
 
-- **Single Layout:** Common header and footer across all pages.
-- **Dynamic Content:** Main content changes per route.
-- **404 Page:** Custom "Not Found" layout.
-- **Dynamic Page Titles:** Each route updates the browser tab title dynamically.
+- A single layout with a common header and footer across all pages.
+- Dynamic content that changes based on routes.
+- Protected game detail pages, accessible only to authenticated users.
+- Firebase authentication for email/password and Google login.
+- User profile management (view and update user information).
+- Password reset functionality (Forgot Password) using Firebase.
+- Tailwind CSS / DaisyUI styling for a responsive UI.
+- Smooth animations with Framer Motion or React Spring.
+- Dynamic browser titles for each page.
+- An extra route consistent with the website theme, e.g., About page.
 
-### Navbar / Header
+---
 
-- **Logo:** Displayed on the left.
-- **Navigation Links:** Home, Games, Newsletter, etc.
-- **Authentication Links:**
-  - If logged **out** → Show `Sign Up` and `Log In`.
-  - If logged **in** → Show user profile picture and `Log Out` (redirects to **Current Page which is User visited**).
+## Key Features
+
+### Layout & Navigation
+- **Single Layout:** Header and footer persist across all pages.
+- **Dynamic Routing:** Main content updates based on the active route.
+- **404 Page:** Custom "Not Found" page for undefined routes.
+- **Navbar Authentication Links:**
+  - Logged out → Show **Sign Up** and **Log In**.
+  - Logged in → Show **Profile picture** and **Log Out** (redirects to the current page).
 
 ### Homepage
-
-- **Banner Slider:** 3 slides with game images.
-- **Popular Games:** Cards sorted by rating (at least 3).
-- **Newsletter Section:** Non-functional subscription-style UI.
+- **Banner Slider:** 3 slides featuring game images.
+- **Popular Games:** Cards sorted by rating (minimum 3 games).
+- **Newsletter Section:** UI-only subscription layout.
 
 ### Game Details Page (Protected)
-
-- Displays full game info from local JSON data.
-- Accessible **only if logged in**.
-- Unauthenticated users are redirected to the **Login Page**.
+- Displays complete game information from a local JSON file.
+- Redirects unauthenticated users to the **Login Page**.
 
 ### Authentication (Firebase)
-
 - **Email & Password Login**
-- **Google Login**
-- **Register/SignUp with Name, Email, Password and Photo URL**
+- **Google Sign-In**
+- **Sign-Up / Register** with Name, Email, Password, and Photo URL
 - **Password Validation:**
-  - ≥ 6 characters
-  - ≥ 1 uppercase letter
-  - ≥ 1 lowercase letter
+  - Minimum 6 characters
+  - At least 1 uppercase letter
+  - At least 1 lowercase letter
 
-### Profile & Update Info
-
-- **Dashboard Page:** Displays logged-in user info.
-- **Update Information Page:**
-  - Update `name` and `photoURL` via form.
-  - Reflects updated data in Firebase.
+### Profile Management
+- **Dashboard Page:** Displays logged-in user information.
+- **Update Info Page:** Allows updating `name` and `photoURL`, reflecting changes in Firebase.
 
 ### Forgot Password
+- Fully functional password reset via Firebase.
+- Auto-fills email if provided on the login page.
+- Redirects users to Gmail after sending the reset email.
 
-- Functional password reset via Firebase.
-- Auto-fills email if provided on login page.
-- Clicking “Send” redirects to Gmail.
+---
 
-### JSON Data
+## Data Structure
 
-Games are loaded from local JSON data and the data format is:
-
-**_Example:_**
+**Games** are stored locally in JSON format:
 
 ```json
 {
   "id": "1",
-  "title": "Player Unknowns Battle Ground: PUBG",
+  "title": "Player Unknown's Battleground: PUBG",
   "coverPhoto": "https://example.com/images/pubg.png",
   "category": "FPS",
   "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
@@ -75,38 +76,129 @@ Games are loaded from local JSON data and the data format is:
   "developer": "Krafton"
 }
 ```
+## Animations
 
-### Animations
+- **Framer Motion:** Page progress bar and entrance animations.  
+- **React Spring:** Popular games section slides in from left.
 
-- **Implemented using one of:**
-  - Framer Motion (Page progress bar on top)
-  - React Spring (Popular game section come from left)
+---
 
-### Additional Route
+## Tech Stack
 
-- Includes an extra route consistent with the website theme (e.g. **“About”**).
+| Category       | Technology                   |
+|----------------|-------------------------------|
+| Frontend       | React.js                     |
+| Routing        | React Router v6+             |
+| Authentication | Firebase Authentication      |
+| Styling        | Tailwind CSS / DaisyUI       |
+| Animation      | Framer Motion / React Spring |
+| Deployment     | Netlify                      |
+| Data           | Local JSON                   |
 
-### Tech Stack
+---
 
-| Category           | Technology                   |
-| ------------------ | ---------------------------- |
-| **Frontend**       | React.js                     |
-| **Routing**        | React Router                 |
-| **Authentication** | Firebase Auth                |
-| **Styling**        | Tailwind CSS / DaisyUI       |
-| **Animation**      | Framer Motion / React Spring |
-| **Deployment**     | Netlify                      |
-| **Data**           | Local JSON file              |
+## Dependencies
+```json
+"dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^7.1.0",
+    "@fortawesome/free-brands-svg-icons": "^7.1.0",
+    "@fortawesome/free-solid-svg-icons": "^7.1.0",
+    "@fortawesome/react-fontawesome": "^3.1.0",
+    "@react-spring/web": "^10.0.3",
+    "@tailwindcss/vite": "^4.1.15",
+    "firebase": "^12.4.0",
+    "motion": "^12.23.24",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router": "^7.9.4",
+    "react-toastify": "^11.0.5",
+    "sweetalert2": "^11.26.3",
+    "tailwindcss": "^4.1.15"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "daisyui": "^5.3.7",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "^7.1.7"
+  }
+```
 
-### Challenges Implemented
+---
 
-- Animation using Framer Motion / React Spring
-- Functional Forgot Password flow
-- Profile Update with Firebase data
-- Dynamic Titles for all routes
-- Protected Game Details Page
-- Newsletter Subscription Section
+## Installation & Local Setup
 
-### Preview
+1. **Clone the repository:**
+```bash
+git clone https://github.com/alhasandhali/gamora.git
+cd gamora
+```
 
-**Visit Here:** [**_https://gamora-dhali.netlify.app/_**](https://gamora-dhali.netlify.app/)
+2. **Install dependencies**
+```bash
+npm install
+```
+
+3. **Create `.env.local` with Firebase config**
+4. **Build for production**
+```bash
+npm run build
+```
+---
+
+**Firebase Environment Variables (`.env.local`)**
+```bash
+REACT_APP_FIREBASE_API_KEY=your_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+REACT_APP_FIREBASE_PROJECT_ID=your_project_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=xxxx
+REACT_APP_FIREBASE_APP_ID=1:xxxx:web:yyyy
+```
+---
+
+## Protected Routes & Authentication Flow
+
+Gamora implements secure user authentication and route protection using Firebase. The following flows are supported:
+
+### 1. Register
+- Users can create an account by providing:
+  - Name
+  - Email
+  - Password (with validation)
+  - Profile photo URL (`photoURL`)
+- Registration data is stored in Firebase Authentication.
+
+### 2. Login
+- Users can log in using:
+  - **Email & Password**
+  - **Google Sign-In** via Firebase Authentication
+- Upon successful login, users are redirected to the page they were attempting to access.
+
+### 3. Private Routes
+- Certain pages (e.g., **Game Details**, **Dashboard**) are protected.
+- Unauthenticated users attempting to access these routes are automatically redirected to the **Login Page**.
+- Implementation uses a `ProtectedRoute` component or Higher-Order Component (HOC) that checks authentication state.
+
+### 4. Profile Update
+- Logged-in users can update:
+  - Display name (`displayName`)
+  - Profile photo URL (`photoURL`)
+- Changes are reflected immediately in Firebase Authentication and the UI.
+
+### 5. Forgot Password
+- Users can request a password reset email.
+- Firebase handles sending the reset email.
+- After submitting, users are redirected appropriately (e.g., Gmail or a confirmation page).
+---
+
+## Live Link & Repository
+
+- **Live Website:** [Gamora Live Demo](https://gamora-dhali.netlify.app/)  
+- **GitHub Repository:** [Add your repository link here](https://github.com/your-username/your-repo)
+
