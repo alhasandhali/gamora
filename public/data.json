@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "title": "Player Unknown's Battlegrounds: PUBG",
+    "coverPhoto": "https://i.ibb.co.com/8gpH6cgH/pubg.webp",
+    "category": "FPS",
+    "downloadLink": "https://www.pubgmobile.com/en-US/home.shtml",
+    "description": "PUBG Mobile is a fast-paced battle royale game where players fight for survival, strategy, and victory on dynamic maps.",
+    "ratings": "4.5",
+    "developer": "Krafton"
+  },
+  {
+    "id": 2,
+    "title": "Call of Duty: Mobile",
+    "coverPhoto": "https://i.ibb.co.com/RtLwFnR/cod.png",
+    "category": "FPS",
+    "downloadLink": "https://www.callofduty.com/mobile",
+    "description": "Call of Duty: Mobile offers high-octane multiplayer and battle royale experiences with iconic maps and weapons.",
+    "ratings": "4.6",
+    "developer": "Activision"
+  },
+  {
+    "id": 3,
+    "title": "Fortnite",
+    "coverPhoto": "https://i.ibb.co.com/JwwrbKrF/fortnite.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.epicgames.com/fortnite/",
+    "description": "Fortnite combines building mechanics with intense battle royale gameplay in a colorful, creative world.",
+    "ratings": "4.7",
+    "developer": "Epic Games"
+  },
+  {
+    "id": 4,
+    "title": "Apex Legends",
+    "coverPhoto": "https://i.ibb.co.com/7hGwsqW/Apex-Legends.jpg",
+    "category": "Battle Royale",
+    "downloadLink": "https://www.ea.com/games/apex-legends",
+    "description": "Apex Legends is a squad-based battle royale game featuring unique heroes with powerful abilities.",
+    "ratings": "4.5",
+    "developer": "Respawn Entertainment"
+  },
+  {
+    "id": 5,
+    "title": "Minecraft",
+    "coverPhoto": "https://i.ibb.co.com/YBT5XC5S/Minecraft.png",
+    "category": "Sandbox",
+    "downloadLink": "https://www.minecraft.net/",
+    "description": "Minecraft allows players to explore, build, and survive in infinite blocky worlds full of creativity and adventure.",
+    "ratings": "4.8",
+    "developer": "Mojang Studios"
+  },
+  {
+    "id": 6,
+    "title": "Genshin Impact",
+    "coverPhoto": "https://i.ibb.co.com/mVyYrp2N/Genshin-Impact.jpg",
+    "category": "Action RPG",
+    "downloadLink": "https://genshin.hoyoverse.com/",
+    "description": "Genshin Impact is an open-world action RPG where players explore Teyvat, master elemental magic, and uncover mysteries.",
+    "ratings": "4.7",
+    "developer": "HoYoverse"
+  },
+  {
+    "id": 7,
+    "title": "League of Legends",
+    "coverPhoto": "https://i.ibb.co.com/CsV9w9MP/League-of-Legends.jpg",
+    "category": "MOBA",
+    "downloadLink": "https://www.leagueoflegends.com/",
+    "description": "League of Legends is a fast-paced 5v5 MOBA where players compete using powerful champions to destroy the enemy nexus.",
+    "ratings": "4.6",
+    "developer": "Riot Games"
+  },
+  {
+    "id": 8,
+    "title": "Valorant",
+    "coverPhoto": "https://i.ibb.co.com/kggYQPkt/Valorant.png",
+    "category": "FPS",
+    "downloadLink": "https://playvalorant.com/",
+    "description": "Valorant blends tactical shooting with hero abilities in a team-based competitive environment.",
+    "ratings": "4.7",
+    "developer": "Riot Games"
+  },
+  {
+    "id": 9,
+    "title": "Counter-Strike 2",
+    "coverPhoto": "https://i.ibb.co.com/xq7vJVCd/Counter-Strike-2.jpg",
+    "category": "FPS",
+    "downloadLink": "https://store.steampowered.com/app/730/CounterStrike_2/",
+    "description": "Counter-Strike 2 brings tactical FPS gameplay to new heights with enhanced visuals and refined mechanics.",
+    "ratings": "4.8",
+    "developer": "Valve"
+  },
+  {
+    "id": 10,
+    "title": "Among Us",
+    "coverPhoto": "https://i.ibb.co.com/dwzNfCmg/Among-Us.jpg",
+    "category": "Party",
+    "downloadLink": "https://www.innersloth.com/games/among-us/",
+    "description": "Among Us is a multiplayer game of teamwork and betrayal set aboard a spaceship full of impostors and crewmates.",
+    "ratings": "4.5",
+    "developer": "Innersloth"
+  },
+  {
+    "id": 11,
+    "title": "Clash of Clans",
+    "coverPhoto": "https://i.ibb.co.com/tpPwv21v/Clash-of-Clans.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://supercell.com/en/games/clashofclans/",
+    "description": "Clash of Clans is a mobile strategy game where players build villages, train troops, and battle other players.",
+    "ratings": "4.6",
+    "developer": "Supercell"
+  },
+  {
+    "id": 12,
+    "title": "Clash Royale",
+    "coverPhoto": "https://i.ibb.co.com/B2VDYp8Y/Clash-Royale.jpg",
+    "category": "Strategy",
+    "downloadLink": "https://supercell.com/en/games/clashroyale/",
+    "description": "Clash Royale combines card collecting and real-time strategy in fast-paced duels between players.",
+    "ratings": "4.5",
+    "developer": "Supercell"
+  },
+  {
+    "id": 13,
+    "title": "Roblox",
+    "coverPhoto": "https://i.ibb.co.com/4cz7ZRR/Roblox.jpg",
+    "category": "Sandbox",
+    "downloadLink": "https://www.roblox.com/",
+    "description": "Roblox is an online platform that allows users to create, share, and play games created by other players.",
+    "ratings": "4.6",
+    "developer": "Roblox Corporation"
+  },
+  {
+    "id": 14,
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "coverPhoto": "https://i.ibb.co.com/qMVmK870/Zelda.jpg",
+    "category": "Adventure",
+    "downloadLink": "https://www.nintendo.com/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/",
+    "description": "Tears of the Kingdom expands the world of Hyrule with sky islands, new abilities, and deep exploration.",
+    "ratings": "4.9",
+    "developer": "Nintendo"
+  },
+  {
+    "id": 15,
+    "title": "Grand Theft Auto VI",
+    "coverPhoto": "https://i.ibb.co.com/s9cZDTz2/GTA-V.jpg",
+    "category": "Action",
+    "downloadLink": "https://www.rockstargames.com/gta-v",
+    "description": "GTA VI offers an open-world experience filled with crime, heists, and an expansive online multiplayer mode.",
+    "ratings": "4.8",
+    "developer": "Rockstar Games"
+  },
+  {
+    "id": 16,
+    "title": "Red Dead Redemption 2",
+    "coverPhoto": "https://i.ibb.co.com/Cp9mnndX/Red-Dead-Redemption-2.jpg",
+    "category": "Adventure",
+    "downloadLink": "https://www.rockstargames.com/reddeadredemption2/",
+    "description": "RDR2 is an epic tale of life in America’s unforgiving heartland, featuring rich storytelling and realism.",
+    "ratings": "4.9",
+    "developer": "Rockstar Games"
+  },
+  {
+    "id": 17,
+    "title": "Elden Ring",
+    "coverPhoto": "https://i.ibb.co.com/JFG4jJcY/Elden-Ring.webp",
+    "category": "Action RPG",
+    "downloadLink": "https://en.bandainamcoent.eu/elden-ring/elden-ring",
+    "description": "Elden Ring is an open-world fantasy action RPG with challenging combat and a vast world to explore.",
+    "ratings": "4.9",
+    "developer": "FromSoftware"
+  },
+  {
+    "id": 18,
+    "title": "Overwatch 2",
+    "coverPhoto": "https://i.ibb.co.com/NdqMV41V/Overwatch-2.png",
+    "category": "FPS",
+    "downloadLink": "https://overwatch.blizzard.com/",
+    "description": "Overwatch 2 is a team-based shooter where heroes with unique abilities battle in vibrant, global arenas.",
+    "ratings": "4.4",
+    "developer": "Blizzard Entertainment"
+  },
+  {
+    "id": 19,
+    "title": "Rocket League",
+    "coverPhoto": "https://i.ibb.co.com/MxVHfggx/Rocket-League.jpg",
+    "category": "Sports",
+    "downloadLink": "https://www.rocketleague.com/",
+    "description": "Rocket League combines soccer with rocket-powered cars in a fast-paced, high-skill competitive game.",
+    "ratings": "4.7",
+    "developer": "Psyonix"
+  },
+  {
+    "id": 20,
+    "title": "The Witcher 3: Wild Hunt",
+    "coverPhoto": "https://i.ibb.co.com/0jX18hDj/The-Witcher-3.webp",
+    "category": "RPG",
+    "downloadLink": "https://thewitcher.com/en/witcher3",
+    "description": "The Witcher 3 is an award-winning RPG featuring a vast world, gripping storylines, and deep character development.",
+    "ratings": "4.9",
+    "developer": "CD Projekt Red"
+  }
+]
