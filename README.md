@@ -1,3 +1,5 @@
+<img align="center" width="100%" src="https://i.ibb.co.com/9mtxDVPt/Screenshot-2025-11-19-151302.png" alt="home-page">
+
 # Gamora – Modern Gaming Showcase
 
 **Gamora** is a responsive, single-layout React website that showcases popular games. It integrates **Firebase Authentication**, protected routes, dynamic routing, animations, and secure usage of environment variables.
