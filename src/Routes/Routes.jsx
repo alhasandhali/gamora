@@ -67,11 +67,7 @@ export const router = createBrowserRouter([
         path: "/game-details/:id",
         loader: () => fetch("/data.json"),
         hydrateFallbackElement: <CustomLoader></CustomLoader>,
-        element: (
-          <PrivateRoutes>
-            <GameDetails></GameDetails>
-          </PrivateRoutes>
-        ),
+        element: <GameDetails></GameDetails>,
       },
       {
         path: "/dashboard",

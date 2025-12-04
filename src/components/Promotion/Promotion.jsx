@@ -2,7 +2,7 @@ import React from "react";
 
 const Promotion = () => {
   return (
-    <div className="w-11/12 mx-auto py-16 bg-linear-to-r from-indigo-500 to-purple-500 rounded-xl relative overflow-hidden">
+    <div className="w-11/12 mx-auto py-20 bg-linear-to-r from-indigo-500 to-purple-500 rounded-xl relative overflow-hidden">
       <div className="text-center text-white relative z-10">
         <h2 className="montserrat text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg">
           Special Promotion!
@@ -14,8 +14,6 @@ const Promotion = () => {
           Explore Now
         </button>
       </div>
-
-      {/* Optional decorative background shapes */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-white/20 rounded-full -translate-x-1/2 -translate-y-1/2 animate-pulse"></div>
       <div className="absolute bottom-0 right-0 w-64 h-64 bg-white/20 rounded-full translate-x-1/2 translate-y-1/2 animate-pulse"></div>
     </div>

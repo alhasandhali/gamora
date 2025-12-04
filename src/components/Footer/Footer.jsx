@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-linear-to-b from-base-200 to-base-300 text-base-content border-t border-base-300">
-      <div className="w-11/12 mx-auto px-2 py-16 grid grid-cols-1 md:grid-cols-4 gap-5">
+      <div className="w-11/12 mx-auto px-2 py-20 grid grid-cols-1 md:grid-cols-4 gap-5">
         <div>
           <Link
             to="/"

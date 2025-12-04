@@ -21,7 +21,6 @@ const Offer = () => {
             20% OFF
           </span>
         </div>
-
         {/* Offer 2 */}
         <div className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition-all duration-300 hover:scale-105">
           <h3 className="montserrat text-2xl md:text-3xl font-bold text-[#001931] mb-2">
@@ -34,7 +33,6 @@ const Offer = () => {
             30% OFF
           </span>
         </div>
-
         {/* Offer 3 */}
         <div className="bg-white shadow-lg rounded-xl p-6 flex flex-col items-center text-center transition-all duration-300 hover:scale-105">
           <h3 className="montserrat text-2xl md:text-3xl font-bold text-[#001931] mb-2">
