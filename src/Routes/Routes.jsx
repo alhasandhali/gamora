@@ -12,6 +12,9 @@ import Dashboard from "../pages/Dashboard/Dashboard";
 import ForgetPassword from "../pages/ForgetPassword/ForgetPassword";
 import UpdateUser from "../pages/UpdateUser/UpdateUser";
 import CustomLoader from "../components/CustomLoader/CustomLoader";
+import Contact from "../pages/Contact/Contact";
+import Career from "../pages/Career/Career";
+import Press from "../pages/Press/Press";
 
 export const router = createBrowserRouter([
   {
@@ -37,6 +40,18 @@ export const router = createBrowserRouter([
       {
         path: "/about-us",
         Component: AboutUs,
+      },
+      {
+        path: "/contact-us",
+        Component: Contact,
+      },
+      {
+        path: "/career",
+        Component: Career,
+      },
+      {
+        path: "/press",
+        element: <Press></Press>,
       },
       {
         path: "/forget-password",

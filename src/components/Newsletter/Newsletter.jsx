@@ -2,7 +2,7 @@ import React from "react";
 
 const Newsletter = () => {
   return (
-    <div className="bg-linear-to-br from-indigo-500 to-purple-500">
+    <div className="w-11/12 mx-auto py-16 bg-linear-to-r from-indigo-500 to-purple-500 rounded-xl relative overflow-hidden">
       <div className="w-11/12 m-auto py-16 text-white text-center">
         <h2 className="montserrat text-3xl font-bold mb-4">Stay Updated!</h2>
         <p className="roboto mb-6">
@@ -22,6 +22,9 @@ const Newsletter = () => {
           </button>
         </form>
       </div>
+      {/* Optional decorative background shapes */}
+      <div className="absolute top-0 left-0 w-64 h-64 bg-white/20 rounded-full -translate-x-1/2 -translate-y-1/2 animate-pulse"></div>
+      <div className="absolute bottom-0 right-0 w-64 h-64 bg-white/20 rounded-full translate-x-1/2 translate-y-1/2 animate-pulse"></div>
     </div>
   );
 };

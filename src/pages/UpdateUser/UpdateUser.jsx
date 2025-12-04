@@ -3,6 +3,7 @@ import { AuthContext } from "../../context/AuthContext/AuthContext";
 import { useNavigate } from "react-router";
 import { toast, ToastContainer } from "react-toastify";
 import Swal from "sweetalert2";
+import BackButton from "../../components/BackButton/BackButton";
 
 const UpdateUser = () => {
   const { user, updateUserProfile } = use(AuthContext);
@@ -46,9 +47,12 @@ const UpdateUser = () => {
       <ToastContainer></ToastContainer>
       <div className="flex justify-center">
         <div className="my-5 p-10 w-full md:w-6/12 bg-gray-800 rounded-3xl">
-          <h3 className="montserrat font-bold text-lg text-white mb-5">
-            Update your profile
-          </h3>
+          <div className="flex justify-between items-center mb-5">
+            <h3 className="montserrat font-bold text-lg text-white">
+              Update your profile
+            </h3>
+            <BackButton textColor="text-white" />
+          </div>
           <form onSubmit={handleUpdateProfile} className="flex flex-col gap-4">
             <input
               type="text"

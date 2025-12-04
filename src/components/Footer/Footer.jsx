@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-linear-to-b from-base-200 to-base-300 text-base-content border-t border-base-300">
-      <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-4 gap-5">
+      <div className="w-11/12 mx-auto px-2 py-16 grid grid-cols-1 md:grid-cols-4 gap-5">
         <div>
           <Link
             to="/"
@@ -82,19 +82,28 @@ const Footer = () => {
           </h6>
           <ul className="space-y-2">
             <li>
-              <a className="link link-hover hover:text-primary transition">
+              <Link
+                to="/career"
+                className="link link-hover hover:text-primary transition"
+              >
                 Careers
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="link link-hover hover:text-primary transition">
+              <Link
+                to="/contact-us"
+                className="link link-hover hover:text-primary transition"
+              >
                 Contact
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="link link-hover hover:text-primary transition">
+              <Link
+                to="/press"
+                className="link link-hover hover:text-primary transition"
+              >
                 Press
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

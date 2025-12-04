@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="md:sticky top-0 bg-[#ffffff92] shadow-sm z-50">
+    <div className="md:sticky top-0 bg-[#ffffff92] shadow-sm backdrop-blur hover:font-bold transition-all duration-300 z-50">
       <div className="navbar w-full md:w-11/12 m-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -39,21 +39,35 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-20 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <NavLink to="/" className="ml-3 montserrat font-medium">
+                <NavLink
+                  to="/"
+                  className="ml-3 montserrat font-medium hover:font-bold transition-all duration-300"
+                >
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/about-us" className="ml-3 montserrat font-medium">
+                <NavLink
+                  to="/about-us"
+                  className="ml-3 montserrat font-medium hover:font-bold transition-all duration-300"
+                >
                   About Us
                 </NavLink>
               </li>
               <li>
                 <NavLink
                   to="/all-games"
-                  className="ml-3 montserrat font-medium"
+                  className="ml-3 montserrat font-medium hover:font-bold transition-all duration-300"
                 >
                   Games
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/contact-us"
+                  className="ml-3 montserrat font-medium hover:font-bold transition-all duration-300"
+                >
+                  Contact
                 </NavLink>
               </li>
               <li>
@@ -103,18 +117,35 @@ const Navbar = () => {
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 items-center">
             <li>
-              <NavLink to="/" className="ml-3 montserrat font-medium">
+              <NavLink
+                to="/"
+                className="ml-3 montserrat font-medium hover:font-bold transition-all duration-300"
+              >
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about-us" className="ml-3 montserrat font-medium">
+              <NavLink
+                to="/about-us"
+                className="ml-3 montserrat font-medium hover:font-bold transition-all duration-300"
+              >
                 About Us
               </NavLink>
             </li>
             <li>
-              <NavLink to="/all-games" className="ml-3 montserrat font-medium">
+              <NavLink
+                to="/all-games"
+                className="ml-3 montserrat font-medium hover:font-bold transition-all duration-300"
+              >
                 Games
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/contact-us"
+                className="ml-3 montserrat font-medium hover:font-bold transition-all duration-300"
+              >
+                Contact
               </NavLink>
             </li>
             <li>

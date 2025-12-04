@@ -1,9 +1,11 @@
 import React from "react";
 import { useLoaderData } from "react-router";
 import usePageTitle from "../../utilities/setPageTitle/usePageTitle";
-import Banner from "../Banner/Banner";
-import Newsletter from "../Newsletter/Newsletter";
-import Games from "../Games/Games";
+import Newsletter from "../../components/Newsletter/Newsletter";
+import Offer from "../../components/Offer/Offer";
+import Promotion from "../../components/Promotion/Promotion";
+import Banner from "../../components/Banner/Banner";
+import Games from "../../components/Games/Games";
 
 const Home = () => {
   usePageTitle("Home");
@@ -12,6 +14,8 @@ const Home = () => {
     <div>
       <Banner data={data}></Banner>
       <Games data={data}></Games>
+      <Promotion></Promotion>
+      <Offer></Offer>
       <Newsletter></Newsletter>
     </div>
   );
